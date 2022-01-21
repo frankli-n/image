@@ -11328,5 +11328,18 @@ textarea.form-control-lg {
   background-size: 170%;
 }
 
+.hero {
+  position: relative;
+  overflow: hidden; 
+  z-index: -2;
+}
 
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  /*min-height: 100%;*/
+  z-index: -1;
 
+}
