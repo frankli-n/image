@@ -11299,7 +11299,7 @@ textarea.form-control-lg {
 /*my styles*/
 
 .bg-booklets {
-  background-image: url("../images/booklets.jpeg");
+  background-image: url("http://localhost:3000/images/booklets.jpeg");
   background-position: center;
   background-size: 130%;
 }
@@ -11317,15 +11317,27 @@ textarea.form-control-lg {
 }
 
 .bg-card {
-  background-image: url("../images/card.jpeg");
+  background-image: url("http://localhost:3000/images/card.jpeg");
   background-position: center;
   background-size: 170%;
 }
 
 .bg-flyer {
-  background-image: url("../images/flyer.jpeg");
+  background-image: url("http://localhost:3000/images/flyer.jpeg");
   background-position: center;
   background-size: 170%;
+}
+
+.bg-site-colour {
+  --bs-bg-opacity: 1;
+  background-color: rgba(0, 0, 255, 0.3);
+  background-color: rgba(176,108,204,1)
+}
+
+.btn-site-colour {
+  color: #fff;
+  background-color: rgba(176,108,204,1);
+  border-color: rgba(176,108,204,1);
 }
 
 .hero {
