@@ -11299,31 +11299,31 @@ textarea.form-control-lg {
 /*my styles*/
 
 .bg-booklets {
-  background-image: url("images/booklets.jpeg");
+  background-image: url("../images/booklets.jpeg");
   background-position: center;
   background-size: 130%;
 }
 
 .bg-business-cards {
-  background-image: url("images/business-cards.jpeg");
+  background-image: url("../images/business-cards.jpeg");
   background-position: center;
   background-size: 133%;
 }
 
 .bg-brochures {
-  background-image: url("images/brochures.png");
+  background-image: url("../images/brochures.png");
   background-position: center;
   background-size: 170%;
 }
 
 .bg-card {
-  background-image: url("images/card.jpeg");
+  background-image: url("../images/card.jpeg");
   background-position: center;
   background-size: 170%;
 }
 
 .bg-flyer {
-  background-image: url("images/flyer.jpeg");
+  background-image: url("../images/flyer.jpeg");
   background-position: center;
   background-size: 170%;
 }
