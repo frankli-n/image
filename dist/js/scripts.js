@@ -5,7 +5,9 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
-$(document).ready(function() {
-  $('#navloader').load('navbar.html');
-  $('#prodloader').load('products.html');
-});
+
+
+// $(document).ready(function() {
+//   $('#navloader').load('navbar.html');
+//   $('#prodloader').load('products.html');
+// });
