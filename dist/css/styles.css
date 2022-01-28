@@ -3061,7 +3061,7 @@ textarea.form-control-lg {
 .btn-secondary {
   color: #fc4445;
   background-color: #;
-  border-color: #fc4445;
+  border-color: #;
 }
 .btn-secondary:hover {
   color: #fc4445;
@@ -4091,6 +4091,17 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
 }
+
+.navbar-toggler-light {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #fc4445;
+  border: 1px solid #fff;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
     transition: none;
@@ -4438,13 +4449,13 @@ textarea.form-control-lg {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.55);
+  color: rgba(255,255,255, 0.55);
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
   color: rgba(0, 0, 0, 0.7);
@@ -4454,14 +4465,14 @@ textarea.form-control-lg {
 }
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.55);
-  border-color: rgba(0, 0, 0, 0.1);
+  color: rgba(255,255,255, .55);
+  border-color: rgba(255,255,255, 1);
 }
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .navbar-light .navbar-text {
   color: rgba(0, 0, 0, 0.55);
@@ -4482,18 +4493,18 @@ textarea.form-control-lg {
   color: #fc4445;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgb(68,161,252);
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fc4445;
+  color: rgb(68,161,252);
 }
 .navbar-dark .navbar-toggler {
-  color: #ea1616;
-  border-color: #ea1616;
+  color: rgb(252, 68, 69, .5);;
+  border-color: rgb(252, 68, 69, .75);
 }
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(252, 68, 69, .8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -6878,7 +6889,7 @@ textarea.form-control-lg {
 }
 
 .border-bottom {
-  border-bottom: 1px solid #dee2e6 !important;
+  border-bottom: 1px solid rgb(252, 68, 69, .2) !important;
 }
 
 .border-bottom-0 {
@@ -9700,7 +9711,7 @@ textarea.form-control-lg {
     margin-right: auto !important;
   }
 
-  .mb-lg-0 {
+  .f-0 {
     margin-bottom: 0 !important;
   }
 
@@ -11321,7 +11332,7 @@ textarea.form-control-lg {
 /*my styles*/
 
 .bg-booklets {
-  background-image: url("http://localhost:3000/images/booklets.jpeg");
+  background-image: url("../images/booklets.jpeg");
   background-position: center;
   background-size: 130%;
 }
@@ -11339,13 +11350,13 @@ textarea.form-control-lg {
 }
 
 .bg-card {
-  background-image: url("http://localhost:3000/images/card.jpeg");
+  background-image: url("../images/card.jpeg");
   background-position: center;
   background-size: 170%;
 }
 
 .bg-flyer {
-  background-image: url("http://localhost:3000/images/flyer.jpeg");
+  background-image: url("../images/flyer.jpeg");
   background-position: center;
   background-size: 170%;
 }
