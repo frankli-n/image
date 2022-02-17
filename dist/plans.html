@@ -25,42 +25,41 @@
                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                     <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
                      <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                   </ul>
                </div>
             </div>
          </nav>
+         <!-- product menu --> 
+         <div class="container">
+            <header class="d-flex justify-content-center py-3">
+               <ul class="nav nav-pills">
+                  <li class="nav-item"><a href="booklets.html" class="nav-link link-red">booklets</a></li>
+                  <li class="nav-item"><a href="business-cards.html" class="nav-link link-red">business cards</a></li>
+                  <li class="nav-item"><a href="brochures.html" class="nav-link link-red">brochures</a></li>
+                  <li class="nav-item"><a href="cards.html" class="nav-link link-red">cards</a></li>
+                  <li class="nav-item"><a href="flyers.html" class="nav-link link-red">flyers</a></li>
+                  <!-- more dropdown button -->
+                  <div class="dropdown">
+                     <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                     more
+                     </a>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="aframes.html">a-frames</a></li>
+                        <li><a class="dropdown-item" href="finishing.html">finishing, embossing, binding</a></li>
+                        <li><a class="dropdown-item active" href="plans.html">plans</a></li>
+                     </ul>
+                  </div>
+               </ul>
+            </header>
+         </div>
+      </div>
 
-<!-- product menu --> 
-<div class="container">
-  <header class="d-flex justify-content-center py-3">
-   <ul class="nav nav-pills">
-    <li class="nav-item"><a href="booklets.html" class="nav-link link-red">booklets</a></li>
-    <li class="nav-item"><a href="business-cards.html" class="nav-link link-red">business cards</a></li>
-    <li class="nav-item"><a href="brochures.html" class="nav-link link-red active">brochures</a></li>
-    <li class="nav-item"><a href="cards.html" class="nav-link link-red">cards</a></li>
-    <li class="nav-item"><a href="flyers.html" class="nav-link link-red">flyers</a></li>
-    <!-- more dropdown button -->
-    <div class="dropdown">
-     <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-       more
-     </a>
-     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      <li><a class="dropdown-item" href="aframes.html">a-frames</a></li>
-      <li><a class="dropdown-item" href="bookmarks.html">bookmarks</a></li>
-      <li><a class="dropdown-item" href="finishing.html">finishing, embossing, binding</a></li>
-      <li><a class="dropdown-item" href="plans.html">plans</a></li>
-    </ul>
-  </div>
-</ul>
-</header>
-</div>
-</div>
 
 <!-- Header-->
-<header class="bg-brochures py-5 bg-dark">
+<header class="bg-plans py-5 bg-dark">
   <div class="container px-5">
     <div class="row gx-5 justify-content-center">
       <div class="col-lg-6">
@@ -74,24 +73,27 @@
   </div>
 </header>
 
+
 <!-- Features section-->
 <section class="py-5 border-bottom" id="features">
   <div class="container px-5 my-5">
     <div class="row gx-5">
 
       <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
-        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-map"></i></div>
-        <h2 class="h4 fw-bolder">Brochures & flyers </h2>
-        <p>Choose between single or double sided, and how many folds you want. The example brochure is a tri-fold: double sided and 6 pages. </p>
-        
+        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-square"></i></div>
+        <h2 class="h4 fw-bolder">Plans</h2>
+        <p>Print off extra large construction, architecture or other plans with us.</p>
         <a class="text-decoration-none" href="contact.html"> Get in touch <i class="bi bi-arrow-right"></i> </a> 
       </div>
 
-      <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
-       <div>
-          <img src="images/brochure-example.jpeg" class="img-fluid" alt="Responsive image">
+      <div class="col-lg-3 col-md-3 col-sm-6 mb-5 mb-lg-0">
+        <img src="images/example-plan.jpeg" class="img-fluid" alt="Responsive image">
        </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-6 mb-5 mb-lg-0">
+        <img src="images/example2-plan.jpeg" class="img-fluid" alt="Responsive image">
       </div>
+
     </div>
   </div>
 </section>
@@ -113,9 +115,5 @@
 <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *--> 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *--> 
 <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-
-	
-	
-	
 </body>
 </html>
