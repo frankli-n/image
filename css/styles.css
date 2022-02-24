@@ -11474,3 +11474,9 @@ textarea.form-control-lg {
   z-index: 0;
 }
 
+#mac-classic {
+  height: 200px;
+  /*width: 100%*/
+  float: center;
+}
+
