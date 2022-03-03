@@ -11479,4 +11479,11 @@ textarea.form-control-lg {
   /*width: 100%*/
   float: center;
 }
+/*
+#myCarousel {
+  height:300px;
+}*/
 
+.stretch-to-fit {
+  object-fit: fill;
+}
